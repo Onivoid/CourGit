@@ -6,7 +6,7 @@
 Tout dabord, vous allez créer un dossier de travail.
 Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de travail.
 
-...**Rappel : _Taper "cd" suivi du chemin de votre dossier exemple :_ `cd E:\PopSchool\CourGit\Repo`**.
+**Rappel : _Taper "cd" suivi du chemin de votre dossier exemple :_ `cd E:\PopSchool\CourGit\Repo`**.
 
 Une fois dans votre dossier de travail, nous allons faire la commande : **`git init`**.
  
