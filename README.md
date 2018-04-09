@@ -66,9 +66,7 @@ Vous allez donc créer une branch avec votre nom si ce n'est pas déjà fait, et
 
 Le fichier index.html est déjà près configuré avec un h1 vide, voici les consignes :
 1. **Dans le fichier HTML** : écrivez votre prénom dans le H1,
-2. **Dans le fichier CSS**  : 
-
-    écrivez 
+2. **Dans le fichier CSS**  : écrivez les lignes suivantes :
 ```CSS
 body{
     background-color : /* la couleur de votre choix */;
