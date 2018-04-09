@@ -37,7 +37,7 @@ Vous pouvez maintenant observer votre dossier de travail local, le repository y 
     README.md       //README rédigé en MarkDown
 ``` 
 ***
-## 1.3 Créer sa "branch", y faire ses modifications, les sauvegarder.
+## 1.3 Créer sa "branch", y faire ses modifications et les sauvegarder.
 
 ### 1.3.1 Créer sa "branch".
 Pour créer une **branch** dans le repository git, c'est très simple.
@@ -59,3 +59,16 @@ Voilà ! Vous savez créer, et vous déplacer dans une **branch** !
 
 Pour supprimer une **branch** il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
 
+### 1.3.2 Faire des modifications sur sa branch et les sauvegarder
+Nous avons vu précédemment comment créer et se déplacer dans une branch.
+
+Vous allez donc créer une branch avec votre nom si ce n'est pas déjà fait, et vous assurer que vous êtes bien dedans.
+
+Le fichier index.html est déjà près configuré avec un h1 vide, voici les consignes :
+1. **Dans le fichier HTML** : écrivez votre prénom dans le H1,
+2. **Dans le fichier CSS**  : écrivez 
+```CSS
+body{
+    background-color : /* la couleur de votre choix */;
+}
+```
