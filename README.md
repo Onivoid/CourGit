@@ -30,14 +30,10 @@ Voici l'arborescence du projet cloné :
     css
     |--- style.css ### Feuille de style
     |
-    |
     js
     |--- main.js ### Feuille de Script
     |
-    |
     index.html ### index du site
-    |
-    |
     |
     README.md ### README rédigé en MarkDown
 ``` 
