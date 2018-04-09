@@ -56,5 +56,6 @@ Revenons en à la création de notre **branch** :
 3. Pour revenir à la **branch master**, Taper la commande : `git checkout master`.
 
 Voilà ! Vous savez créer, et vous déplacer dans une **branch** !
+
 Pour supprimer une **branch** il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
 
