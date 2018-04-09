@@ -24,8 +24,7 @@ Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du r
 Vous pouvez maintenant observer votre dossier de travail local, le repository y a était cloner !
 
 ## 1.2 Arborescence du projet
-Voici l'arborescence du projet cloné :
-
+***
 ```md
     css
     |--- style.css  //Feuille de style
@@ -37,3 +36,4 @@ Voici l'arborescence du projet cloné :
     |
     README.md       //README rédigé en MarkDown
 ``` 
+***
