@@ -72,5 +72,5 @@ body{
     background-color : /* la couleur de votre choix */;
 }
 ```
-Une fois que vous avez fait vos modifications faites la commande `git add *`, elle vous permettras d'ajouter toutes vos modifications, puis faite la commande `git commit -m VOTRE_MESSAGE`, qui vous permettras de sauvegarder les modifications ajoutées à votre **branch**.
+Une fois que vous avez fait vos modifications faites la commande `git add *`, elle vous permettras d'ajouter toutes vos modifications, puis faite la commande `git commit -m VOTRE_MESSAGE`, qui vous permettras de sauvegarder les modifications ajoutées à votre **branch** suivis de votre "message de **commit**".
 ### ATTENTION : Vérifier que vous êtes bien dans votre branch avant de sauvegarder !
