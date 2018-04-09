@@ -4,7 +4,7 @@
 
 ## Récupèrer le repository (dépot)
 
-### Initialiser git sur un projet local :
+#### Initialiser git sur un projet local :
 Tout dabord, vous allez créer un dossier de travail.
 Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de travail.
 ***
@@ -12,7 +12,7 @@ Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de
 ***
 Une fois dans votre dossier de travail, nous allons faire la commande : **`git init`**.
  
-### Cloner un repository git dans notre dossier de travail :
+#### Cloner un repository git dans notre dossier de travail :
 
 Ensuite, nous allons récupèrer le repository qui se trouve à cette adresse : https://github.com/Skullyfox/CourGit.
 Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du repository.
