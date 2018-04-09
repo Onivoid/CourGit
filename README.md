@@ -1,5 +1,5 @@
-# Partie pratique du cour sur GIT
-![alt text](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "GIT")
+# Partie pratique du cour sur GIT ![alt text](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "GIT")
+
 ## Récupèrer le repository (dépot)
 
 ### Initialiser git sur un projet local :
