@@ -1,4 +1,5 @@
-# Partie pratique du cour sur GIT
+[logo]: https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "git"
+# Partie pratique du cour sur GIT [logo]
 
 ## Récupèrer le repository (dépot)
 
