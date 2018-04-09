@@ -22,3 +22,22 @@ Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du r
 **Commande : `git clone`**.
 ****
 Vous pouvez maintenant observer votre dossier de travail local, le repository y a était cloner !
+
+## 1.2 Arborescence du projet
+Voici l'arborescence du projet cloné :
+
+```md
+    css
+    |--- style.css ### Feuille de style
+    |
+    |
+    js
+    |--- main.js ### Feuille de Script
+    |
+    |
+    index.html ### index du site
+    |
+    |
+    |
+    README.md ### README rédigé en MarkDown
+``` 
