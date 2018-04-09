@@ -37,24 +37,24 @@ Vous pouvez maintenant observer votre dossier de travail local, le repository y 
     README.md       //README rédigé en MarkDown
 ``` 
 ***
-## 1.3 Créer sa "branch", y faire ces modifications, les sauvegarder.
+## 1.3 Créer sa "branch", y faire ses modifications, les sauvegarder.
 
 ### 1.3.1 Créer sa "branch".
-Pour créer une branch dans le repository git, c'est très simple.
+Pour créer une **branch** dans le repository git, c'est très simple.
 ***
 D'abord, qu'est-ce qu'une "**branch**" ?
 
 Une "**branch**" c'est tout simplement un espace de travail, où les contribueurs du projet, peuvent y faire leurs modifications sans avoir d'impact sur la **branch** principale appelée **_master_** qui ne serviras que pour le créateur du repository.
 
-La branch master, peu être utilisée par tout le monde, **MAIS**, on y enregistrera les modifications validées par le chef du projet en priorité pour ensuite pouvoir les **push** dans le repository.
+La **branch master**, peu être utilisée par tout le monde, **MAIS**, on y enregistrera les modifications validées par le chef du projet en priorité pour ensuite pouvoir les **push** dans le repository.
 
 **Push** consiste à uploader les fichiers du projet sur le serveur GIT.
 ***
 Revenons en à la création de notre **branch** :
-1. Taper la commande : `git checkout -b (le_nom_de_votre_branch)` qui servira à créer votre branch.
-2. Taper la commande : `git branch`, normalement, une liste de branch va s'afficher, la branch dans laquelle vous êtes présent est précédée d'un `*`.
-3. Pour revenir à la branch **master**, Taper la commande : `git checkout master`.
+1. Taper la commande : `git checkout -b (le_nom_de_votre_branch)` qui servira à créer votre **branch**.
+2. Taper la commande : `git branch`, normalement, une liste de **branch** va s'afficher, la branch dans laquelle vous êtes présent est précédée d'un `*`.
+3. Pour revenir à la **branch master**, Taper la commande : `git checkout master`.
 
-Voilà ! Vous savez créer, et vous déplacer dans une branch !
-Pour supprimer une branch il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
+Voilà ! Vous savez créer, et vous déplacer dans une **branch** !
+Pour supprimer une **branch** il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
 
