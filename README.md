@@ -28,12 +28,12 @@ Voici l'arborescence du projet cloné :
 
 ```md
     css
-    |--- style.css ### Feuille de style
+    |--- style.css  //Feuille de style
     |
     js
-    |--- main.js ### Feuille de Script
+    |--- main.js    //Feuille de Script
     |
-    index.html ### index du site
+    index.html      //index du site
     |
-    README.md ### README rédigé en MarkDown
+    README.md       //README rédigé en MarkDown
 ``` 
