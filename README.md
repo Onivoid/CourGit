@@ -1,4 +1,4 @@
-# Partie pratique du cour sur GIT ![alt text](https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png "GIT")
+# Partie pratique du cour sur GIT ![alt text](http://shijuvarghese.com/wp-content/uploads/2018/03/git-logo.png "GIT")
 
 ## Récupèrer le repository (dépot)
 
