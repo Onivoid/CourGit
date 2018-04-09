@@ -1,4 +1,4 @@
-![alt text](http://shijuvarghese.com/wp-content/uploads/2018/03/git-logo.png "GIT")
+                ![alt text](http://shijuvarghese.com/wp-content/uploads/2018/03/git-logo.png "GIT")
 
 # Partie pratique du cour sur GIT
 
