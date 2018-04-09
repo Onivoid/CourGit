@@ -1,12 +1,12 @@
 ###### Cour GIT par : Logan Wilquin.
 
-# 1. Partie pratique du cour sur GIT.
+# Partie pratique du cour sur GIT.
 
 ![alt text](https://i2.wp.com/wptavern.com/wp-content/uploads/2014/06/revisr-banner.png?ssl=1 "GIT")
 
-## 1.1 Récupèrer le repository (dépot).
+## 1 Récupèrer le repository (dépot).
 
-### 1.1.1 Initialiser git sur un projet local :
+### 1.1 Initialiser git sur un projet local :
 Tout dabord, vous allez créer un dossier de travail.
 Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de travail.
 ***
@@ -14,7 +14,7 @@ Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de
 ***
 Une fois dans votre dossier de travail, nous allons faire la commande : **`git init`**.
  
-### 1.1.2 Cloner un repository git dans notre dossier de travail :
+### 1.2 Cloner un repository git dans notre dossier de travail :
 
 Ensuite, nous allons récupèrer le repository qui se trouve à cette adresse : https://github.com/Skullyfox/CourGit.
 Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du repository.
@@ -23,7 +23,7 @@ Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du r
 ****
 Vous pouvez maintenant observer votre dossier de travail local, le repository y a était cloner !
 
-## 1.2 Arborescence du projet.
+## 2 Arborescence du projet.
 ***
 ```md
     css
@@ -37,9 +37,9 @@ Vous pouvez maintenant observer votre dossier de travail local, le repository y 
     README.md       //README rédigé en MarkDown
 ``` 
 ***
-## 1.3 Créer sa "branch", y faire ses modifications et les sauvegarder.
+## 3 Créer sa "branch", y faire ses modifications et les sauvegarder.
 
-### 1.3.1 Créer sa "branch".
+### 3.1 Créer sa "branch".
 Pour créer une **branch** dans le repository git, c'est très simple.
 ***
 D'abord, qu'est-ce qu'une "**branch**" ?
@@ -59,7 +59,7 @@ Voilà ! Vous savez créer, et vous déplacer dans une **branch** !
 
 Pour supprimer une **branch** il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
 
-### 1.3.2 Faire des modifications sur sa branch et les sauvegarder
+### 3.2 Faire des modifications sur sa branch et les sauvegarder.
 Nous avons vu précédemment comment créer et se déplacer dans une branch.
 
 Vous allez donc créer une branch avec votre nom si ce n'est pas déjà fait, et vous assurer que vous êtes bien dedans.
@@ -72,5 +72,10 @@ body{
     background-color : /* la couleur de votre choix */;
 }
 ```
-Une fois que vous avez fait vos modifications faites la commande `git add *`, elle vous permettras d'ajouter toutes vos modifications, puis faite la commande `git commit -m VOTRE_MESSAGE`, qui vous permettras de sauvegarder les modifications ajoutées à votre **branch** suivis de votre "message de **commit**".
+Une fois que vous avez fait vos modifications faites la commande `git add *`, elle vous permettras d'ajouter toutes vos modifications, puis faite la commande `git commit -m VOTRE_MESSAGE`, qui vous permettras de sauvegarder les modifications ajoutées à votre **branch** suivis de votre "message de **commit**.
 ### ATTENTION : Vérifier que vous êtes bien dans votre branch avant de sauvegarder !
+Voilà ! Maintenant vous savez travailler en groupe grâce à **GIT**!
+
+## 4. Créer son repository, et inviter des contribueurs.
+
+
