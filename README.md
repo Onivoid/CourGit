@@ -78,4 +78,57 @@ Voilà ! Maintenant vous savez travailler en groupe grâce à **GIT**!
 
 ## 4. Créer son repository, et inviter des contribueurs.
 
+### 4.1 Créer son repository.
 
+Pour créer notre repository, il faut que nous nous rendions sur l'accueil de github et qu'on se connecte à notre compte.
+
+Ensuite, toujours sur la page d'accueil, en haut à droite à côté de votre photo de profil vous avez un petit "**+**", cliquez dessus puis cliquez sur "**New repository**".
+
+1. Mettez le nom de votre repository dans le champ texte prévu à cet effet,
+2. descendez puis clique sur "**Create repository**".
+
+Sur la page suivante, nous avons un "blabla" nous proposant : 
+* **d'installer GIT en version desktop**,
+* **de créer son repository via des commandes** (ce qui nous intéresse),
+* **de push un repository existant en ligne de commande**,
+* **d'importer du code existant venant d'un autre repository**
+
+Ici, nous allons créer notre repository via des lignes de commandes.
+
+#### Avant de continuer, assurez vous bien d'être dans la racine de votre projet en local !
+
+Voici les commandes à taper :
+***
+1. `echo "# abcd" >> README.md` : Créé un fichier README.md en y écrivant "# abcd" dedans,
+2. `git init` : Initialise GIT dans votre projet local,
+3. `git add README.md` : Ajoute le fichier **README.md**,
+4. `git commit -m "first commit"` : Enregistre le contenu ajouté,
+5. `git remote add origin https://github.com/Skullyfox/abcd.git`: Lie votre dépot Github à votre projet GIT,
+6. `git push -u origin master` : **push** votre contenu sur votre dépot Github.
+***
+Allons voir notre repository Github, rafraîchissons la page si ce n'est pas encore fait, et nous pouvons constater la présence d'un fichier appelé "**README.md**".
+
+Vous avez réussi à créer et à ajouter un fichier à votre repository Github grâce aux lignes de commandes GIT !
+
+À quoi sers le "**README.md**" ? Qu'est-ce que c'est ?
+
+C'est un simple fichier README (Lisez moi), sauf que celui-ci à l'extension "**md**" qui veux dire : "**MarkDown**".
+
+En gros, nous pouvons tout simplement écrire du text, mais aussi utliser la synthaxe MarkDown, vous lisez actuellement le "**README.md**", il sers tout simplement à expliquer son projet, ou bien à faire un mode d'emplois etc ...
+
+### 4.2 Inviter des contribueurs.
+
+Bon, nous avons réussi à créer notre repository, maintenant nous aimerions travailler en groupe grâce à celui-ci, mais comment les "**Contribueurs**" doivent t-ils faire pour nous rejoindre ?
+
+C'est très simple, enfin pour vous.
+
+1. Allez dans votre repository (via le site Github cette fois-ci),
+2. Vous devez voir un peu sur la droite, un bouton "**Clone or Download**", cliquez dessus,
+3. Copier le lien puis envoyer le à la personne souhaité.
+
+Voilà, vous avez fini ! 
+
+**Petit Rappel** : Le contribueur devras faire la commande `git clone lien_que_vous_lui_avais_donné` pour récupérer votre repository en local.
+
+# Le cour sur les bases de GIT pour travailler en groupe se fini ICI !
+![alt text](https://orig00.deviantart.net/d3c0/f/2014/209/7/5/keep_calm__032___and_develop_by_hundredmelanie-d7sozan.png "keep calm and develop")
