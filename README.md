@@ -1,134 +1,83 @@
-###### Cour GIT par : Logan Wilquin.
-
-# Partie pratique du cour sur GIT.
+# GIT : cour pratique.
 
 ![alt text](https://i2.wp.com/wptavern.com/wp-content/uploads/2014/06/revisr-banner.png?ssl=1 "GIT")
 
-## 1 Récupèrer le repository (dépot).
+## Créer / Cloner un **repository**.
 
-### 1.1 Initialiser git sur un projet local :
-Tout dabord, vous allez créer un dossier de travail.
-Une fois créé, vous ouvrez le CMD et vous vous déplacez dans votre dossier de travail.
-***
-**Rappel : _Taper "cd" suivi du chemin de votre dossier exemple :_ `cd E:\PopSchool\CourGit\Repo`**.
-***
-Une fois dans votre dossier de travail, nous allons faire la commande : **`git init`**.
- 
-### 1.2 Cloner un repository git dans notre dossier de travail :
+### Créer un repository.
 
-Ensuite, nous allons récupèrer le repository qui se trouve à cette adresse : https://github.com/Skullyfox/CourGit.
-Pour cela, il nous faudra CLONER celui-ci grace au lien fournit sur la page du repository.
-****
-**Commande : `git clone`**.
-****
-Vous pouvez maintenant observer votre dossier de travail local, le repository y a était cloner !
+#### La commande "**git init**" :
 
-## 2 Arborescence du projet.
-***
-```md
-    css
-    |--- style.css  //Feuille de style
-    |
-    js
-    |--- main.js    //Feuille de Script
-    |
-    index.html      //index du site
-    |
-    README.md       //README rédigé en MarkDown
-``` 
-***
-## 3 Créer sa "branch", y faire ses modifications et les sauvegarder.
+La commande ```git init```, permet d'initialiser un **repository** Git dans votre dossier de projet Local.
 
-### 3.1 Créer sa "branch".
-Pour créer une **branch** dans le repository git, c'est très simple.
-***
-D'abord, qu'est-ce qu'une "**branch**" ?
+#### La commande "**git clone**" :
 
-Une "**branch**" c'est tout simplement un espace de travail, où les contribueurs du projet, peuvent y faire leurs modifications sans avoir d'impact sur la **branch** principale appelée **_master_** qui ne serviras que pour le créateur du repository.
+La commande ```git clone URL_DU_REPOSITORY.git```, permet de cloner un **repository** Git sur votre projet local.
 
-La **branch master**, peu être utilisée par tout le monde, **MAIS**, on y enregistrera les modifications validées par le chef du projet en priorité pour ensuite pouvoir les **push** dans le repository.
+Cette commande initialise automatiquement le  **repository** Git dans votre dossier de projet local en même temps que le clonage.
 
-**Push** consiste à uploader les fichiers du projet sur le serveur GIT.
-***
-Revenons en à la création de notre **branch** :
-1. Taper la commande : `git checkout -b (le_nom_de_votre_branch)` qui servira à créer votre **branch**.
-2. Taper la commande : `git branch`, normalement, une liste de **branch** va s'afficher, la branch dans laquelle vous êtes présent est précédée d'un `*`.
-3. Pour revenir à la **branch master**, Taper la commande : `git checkout master`.
+#### Mise en pratique :
 
-Voilà ! Vous savez créer, et vous déplacer dans une **branch** !
+Alors tout d'abord, **en local** : 
 
-Pour supprimer une **branch** il vous suffit de taper la commande : `git branch -D (nom_de_la_branch)`.
+- Vous allez créer un dossier, n'importe où dans votre PC (Ou sur périphérique externe), il seras le dossier de votre "projet",
+- Ouvrez l'invité de commande, et allez dans le dossier que vous venez de créer.
 
-### 3.2 Faire des modifications sur sa branch et les sauvegarder.
-Nous avons vu précédemment comment créer et se déplacer dans une branch.
+Ensuite, **la création du dépot sur le site www.github.com** :
 
-Vous allez donc créer une branch avec votre nom si ce n'est pas déjà fait, et vous assurer que vous êtes bien dedans.
+- Rendez-vous sur la plateforme www.github.com, puis, **connectez-vous** à votre compte (ou **créez en un** si ce n'est pas fait),
+- Rendez-vous ensuite sur votre profil, puis dans la rubrique **repositories**,
+- Cliquez sur le petit bouton où il y est écrit "**New**",
+- Mettez le nom que vous voulez dans le champ **repository name**,
+- Avant de cliquer sur **Create Repository**, un tout petit peu au dessus, vous avez l'option "**Initialize this repository with a README**", cochez la puis cliquez sur **Create Repository**.
 
-Le fichier index.html est déjà près configuré avec un h1 vide, voici les consignes :
-1. **Dans le fichier HTML** : écrivez votre prénom dans le H1,
-2. **Dans le fichier CSS**  : écrivez les lignes suivantes :
-```CSS
-body{
-    background-color : /* la couleur de votre choix */;
-}
-```
-Une fois que vous avez fait vos modifications faites la commande `git add *`, elle vous permettras d'ajouter toutes vos modifications, puis faite la commande `git commit -m VOTRE_MESSAGE`, qui vous permettras de sauvegarder les modifications ajoutées à votre **branch** suivis de votre "message de **commit**.
-### ATTENTION : Vérifier que vous êtes bien dans votre branch avant de sauvegarder !
-Voilà ! Maintenant vous savez travailler en groupe grâce à **GIT**!
+Maintenant que votre **repository** est créé, sur la droite vous avez un bouton "**Clone or Download**", cliquez dessus, et copier le lien qui vous est donné, il devrais ressembler approximativement à ceci : https://github.com/Skullyfox/test20180412.git.
 
-## 4. Créer son repository, et inviter des contribueurs.
+Retour **en local** : 
 
-### 4.1 Créer son repository.
+- Retournez dans votre terminal, puis tapez la commande ```git clone https://github.com/Skullyfox/test20180412.git``` avec le lien que vous avez récupéré,
+- Observez votre dossier local, un fichier README.md y a était cloné.
 
-Pour créer notre repository, il faut que nous nous rendions sur l'accueil de github et qu'on se connecte à notre compte.
+### Ajouter, Supprimer, Sauvegarder, Envoyer, Mettre à Jour.
 
-Ensuite, toujours sur la page d'accueil, en haut à droite à côté de votre photo de profil vous avez un petit "**+**", cliquez dessus puis cliquez sur "**New repository**".
+#### La commande "**git add**" :
 
-1. Mettez le nom de votre repository dans le champ texte prévu à cet effet,
-2. descendez puis clique sur "**Create repository**".
+La commande ```git add```, permet d'ajouter les modifications faites sur votre projet local, il y a deux façons de l'utiliser :
 
-Sur la page suivante, nous avons un "blabla" nous proposant : 
-* **d'installer GIT en version desktop**,
-* **de créer son repository via des commandes** (ce qui nous intéresse),
-* **de push un repository existant en ligne de commande**,
-* **d'importer du code existant venant d'un autre repository**
+- Ajouter un fichier particulier : ```git add CHEMIN_DU_FICHIER```,
+- Tout Ajouter : ```git add *```.
 
-Ici, nous allons créer notre repository via des lignes de commandes.
+#### La commande "**git rm**" :
 
-#### Avant de continuer, assurez vous bien d'être dans la racine de votre projet en local !
+La commande ```git rm```, permet de supprimer un fichier, ou dossier qui auras était ajouté, son utilisation est la même que la commande ```git add```.
 
-Voici les commandes à taper :
-***
-1. `echo "# abcd" >> README.md` : Créé un fichier README.md en y écrivant "# abcd" dedans,
-2. `git init` : Initialise GIT dans votre projet local,
-3. `git add README.md` : Ajoute le fichier **README.md**,
-4. `git commit -m "first commit"` : Enregistre le contenu ajouté,
-5. `git remote add origin https://github.com/Skullyfox/abcd.git`: Lie votre dépot Github à votre projet GIT,
-6. `git push -u origin master` : **push** votre contenu sur votre dépot Github.
-***
-Allons voir notre repository Github, rafraîchissons la page si ce n'est pas encore fait, et nous pouvons constater la présence d'un fichier appelé "**README.md**".
+#### La commande "**git commit**" :
 
-Vous avez réussi à créer et à ajouter un fichier à votre repository Github grâce aux lignes de commandes GIT !
+La commande ```git commit -m 'COMMIT MESSAGE'```, permet de sauvegarder les changements qui ont étaient ajouté avec la commande ```git add```, avec un message de **commit**.
 
-À quoi sers le "**README.md**" ? Qu'est-ce que c'est ?
+#### La commande "**git push**" :
 
-C'est un simple fichier README (Lisez moi), sauf que celui-ci à l'extension "**md**" qui veux dire : "**MarkDown**".
+La commande ```git push```, permet d'**uploader** vos changements sauvegardés dans votre **repository** Git.
 
-En gros, nous pouvons tout simplement écrire du text, mais aussi utliser la synthaxe MarkDown, vous lisez actuellement le "**README.md**", il sers tout simplement à expliquer son projet, ou bien à faire un mode d'emplois etc ...
+#### La commande "**git pull**" : 
 
-### 4.2 Inviter des contribueurs.
+La commande ```git pull```, permet de mettre à jour vos fichiers locaux par rapport aux fichiers de votre **repository** Git.
 
-Bon, nous avons réussi à créer notre repository, maintenant nous aimerions travailler en groupe grâce à celui-ci, mais comment les "**Contribueurs**" doivent t-ils faire pour nous rejoindre ?
+#### Mise en pratique :
 
-C'est très simple, enfin pour vous.
+Dans le même dossier (**local**) que vous avez créé précédemment, vous aller :
 
-1. Allez dans votre repository (via le site Github cette fois-ci),
-2. Vous devez voir un peu sur la droite, un bouton "**Clone or Download**", cliquez dessus,
-3. Copier le lien puis envoyer le à la personne souhaité.
+- Créer un fichier index.html et y écrire ```<h1> VOTRE_PRÉNOM </h1>```,
+- Créer un sous dossier **css**, avec un fichier **style.css** à l'intérieur.
 
-Voilà, vous avez fini ! 
+Dans votre fichier **style.css**, modifiez juste la couleur du background du body et peu être la couleur de vos lettres du h1 (servira pour la suite).
 
-**Petit Rappel** : Le contribueur devras faire la commande `git clone lien_que_vous_lui_avais_donné` pour récupérer votre repository en local.
+Une fois que c'est fait, dans votre **terminal** :
 
-# Le cour sur les bases de GIT pour travailler en groupe se fini ICI !
+- Faites la commande ```git add *``` pour **ajouter** toutes vos nouvelles modifications,
+- Faites la commande ```git commit -m 'VOTRE_MESSAGE_DE_COMMIT'``` pour **sauvegarder** les modifications ajoutés,
+- Faites la commande ```git push```pour **upload** vos fichiers sur votre serveur git.
+
+Vous pouvez maintenant observer sur votre **repository** Github, les fichiers seront présents s'il n'y a eu aucuns problèmes durant les manipulation !
+
 ![alt text](https://orig00.deviantart.net/d3c0/f/2014/209/7/5/keep_calm__032___and_develop_by_hundredmelanie-d7sozan.png "keep calm and develop")
