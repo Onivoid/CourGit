@@ -82,7 +82,7 @@ Vous pouvez maintenant observer sur votre **repository** Github, les fichiers se
 
 ## Exercice en Binôme.
 
-### Cloner le repository de son binôme dans un nouveau dossier de travail.
+### Les bases du travail de groupe sur GIT
 
 Vous allez : 
 
@@ -95,5 +95,57 @@ Vous allez :
     - puis add - commit et push la modification.
 
 - L'autre va pull les changements puis rafraichir l'aperçu local pour observer les changements.
+
+### Création & Utilisation des "Branch".
+
+Dans l'exercice précèdent, nous avons vu comment travailler ensemble sur GIT, **MAIS** sur la **branch** master ce qui peu poser problème en modifiant un fichier en même temps.
+
+#### La Commande "git checkout -b" :
+
+La commande ```git checkout -b NOM_DE_LA_BRANCH``` permet de créer une nouvelle **branch**.
+
+#### Mise en pratique :
+
+Les deux personnes du binôme devrons le faire :
+
+- faites la commande ```git checkout -b NOM_DE_LA_BRANCH```
+
+- faites ensuite la commande ```git branch``` : ça vous afficheras la liste des **branch** existante et celle dans laquelle vous êtes seras précèdé d'une étoile.
+
+Vous pouvais maintenant passer aux modifications :
+
+Modifiez chacuns de votre côté ce que vous voulez puis faite la combinaison des commandes :
+
+- ```git add * ```
+
+- ```git commit -m "MESSAGE_DE_COMMIT"```
+
+Maintenant, pour voir les modifications de l'autre :
+
+- Faites ```git checkout NOM_DE_LA_BRANCH_DU_PARTENAIRE ```
+    - puis la commande ``` git pull ``` et rafraichissez la page.
+
+#### La commande "git merge"
+
+La commande ```git merge NOM_DE_LA_BRANCH_A_MERGER ``` permet de copier les modifications d'une **branch** à l'autre.
+
+**. /!\ ATTENTION /!\ .**
+
+Si le binôme modifie le même fichier, au moment du merge il risque d'y avoir conflit !
+
+Nous allons en créer un comme si je n'avais rien dis à ce sujet :
+
+#### Mise en pratique :
+
+Pour l'instant pas de conflits : 
+
+- Allez sur votre **branch** puis faite ```git merge master``` pour revenir à 0 sur votre **branch**
+
+Maintenant nous allons créer le conflit :
+
+- Modifier chacuns le ```background-color``` de votre body puis enregistrer vos changement dans votre **branch**,
+
+- Chacuns
+
 
 ![alt text](https://orig00.deviantart.net/d3c0/f/2014/209/7/5/keep_calm__032___and_develop_by_hundredmelanie-d7sozan.png "keep calm and develop")
