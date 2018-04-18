@@ -80,4 +80,17 @@ Une fois que c'est fait, dans votre **terminal** :
 
 Vous pouvez maintenant observer sur votre **repository** Github, les fichiers seront présents s'il n'y a eu aucuns problèmes durant les manipulation !
 
+## Exercice en Binôme.
+
+### Cloner le repository de son binôme dans un nouveau dossier de travail.
+
+Vous allez : 
+
+- vous mettre en binôme,
+    - l'un des deux va cloner le **repository** de l'autre.
+- Affichez tout les deux le site du **repository** en local,
+- L'un va modifier la taille / la couleur du texte contenu dans le h1
+    - puis add - commit et push la modification
+- L'autre va pull les changements puis rafraichir l'aperçu local pour observer les changements
+
 ![alt text](https://orig00.deviantart.net/d3c0/f/2014/209/7/5/keep_calm__032___and_develop_by_hundredmelanie-d7sozan.png "keep calm and develop")
