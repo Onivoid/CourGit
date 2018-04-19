@@ -145,7 +145,21 @@ Maintenant nous allons créer le conflit :
 
 - Modifier chacuns le ```background-color``` de votre body puis enregistrer vos changement dans votre **branch**,
 
-- Chacuns
+- Enregistrez vos modifications dans vos **branch**,
+
+- faites la commande ```git checkout master``` Pour aller dans la **branch** master,
+
+- Chaucun votre tour, vous aller faire ```git merge LE_NOM_DE_VOTRE_BRANCH```.
+
+Normalement, le deuxième merge vas poser problème.
+
+En faite, Git à tenter de merger 2 modifications similaire : le background-color.
+
+Pour régler ce problème, vous aller devoir Pull la **branch** master puis aller dans votre fichier CSS.
+
+Nous pouvons voir qu'il y a les 2 modifications d'écrites dans le fichier, pour régler ce problème, il vous suffit de garder seulement la modificaiton que vous voulez garder, puis de refaire un **git add** suivit d'un **git commit**, et voilà, problème résolu.
+
+La meilleure pratique serais de répartir le travail et de ne pas travailler sur les mêmes fichiers, ce qui éviterais de merger les mêmes modifications et donc de créer des conflits !
 
 
 ![alt text](https://orig00.deviantart.net/d3c0/f/2014/209/7/5/keep_calm__032___and_develop_by_hundredmelanie-d7sozan.png "keep calm and develop")
